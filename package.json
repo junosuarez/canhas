@@ -18,8 +18,8 @@
     "obj/*.js.map"
   ],
   "keywords": [],
-  "author": "Zendesk, Inc.",
-  "license": "UNLICENSED",
+  "author": "jsn",
+  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.0.1",
     "@types/mocha": "^2.2.41",
