@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "obj",
+    "lib": [
+      "es2017"
+    ],
+    "target": "es5",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules"]
+}

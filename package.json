@@ -1,0 +1,25 @@
+{
+  "name": "canhas",
+  "version": "0.0.0",
+  "description": "a simple service locator",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "npm run build && node obj",
+    "test": "mocha ./**/*.test.js",
+    "test:watch": "npm run build:watch & mocha -w ./**/*.test.js",
+    "clean": "rm -rf obj"
+  },
+  "keywords": [],
+  "author": "Zendesk, Inc.",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.10",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8"
+  }
+}
