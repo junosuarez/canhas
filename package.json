@@ -2,7 +2,8 @@
   "name": "canhas",
   "version": "1.0.0",
   "description": "a simple service locator",
-  "main": "index.js",
+  "main": "obj/index.js",
+  "types": "obj/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
@@ -11,6 +12,11 @@
     "test:watch": "npm run build:watch & mocha -w ./**/*.test.js",
     "clean": "rm -rf obj"
   },
+  "files": [
+    "obj/*.js",
+    "obj/*.d.ts",
+    "obj/*.js.map"
+  ],
   "keywords": [],
   "author": "Zendesk, Inc.",
   "license": "UNLICENSED",
