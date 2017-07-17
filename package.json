@@ -1,6 +1,6 @@
 {
   "name": "canhas",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a simple service locator",
   "main": "index.js",
   "scripts": {
